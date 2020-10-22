@@ -1,0 +1,147 @@
+.post {
+    flex: 1;
+    margin: 10px 0px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    width: 700px;
+}
+
+
+
+.post_top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 10px;
+    /* background-color: lawngreen; */
+    
+}
+
+.post_avatar {
+    margin: 0px 10px;
+}
+
+.post_topInfo {
+    flex: 1;
+}
+
+.post_topInfo > h3 {
+    font-size: medium;
+}
+
+.post_topInfo > div {
+    display: flex;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.post_topInfo > div > .MuiSvgIcon-root {
+    font-size: small;
+    color: gray;
+}
+
+.post_topInfo > div > p {
+    font-size: xx-small;
+    color: gray;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+
+.more {
+    padding-right: 20px;
+}
+
+.post_image > img {
+    width: 700px;
+    height: auto;
+    max-height: 1000px;
+}
+
+.post_topInfo > img {
+    width: 500px;
+    
+}
+
+.post_bottom {
+    margin-top: -20px;
+    margin-bottom: -5px;
+    padding: 0px 10px;
+}
+
+.post_bottom > p {
+    font-size: small;
+    
+}
+
+.post_options {
+    padding-top: 5px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    color: gray;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.post_option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+
+.post_option > p {
+    margin-left: 5px;
+}
+
+.post_option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+}
+
+@media(max-width : 1440px) {
+    .post {
+        width: 500px;
+        /* max-width: 600px; */
+    }
+    .post_image > img {
+        width: 500px;
+        max-height: 900px;
+    }
+}
+
+@media(max-width : 1024px) {
+    .post {
+        width: 500px;
+        /* max-width: 600px; */
+    }
+    .post_image > img {
+        width: 500px;
+        max-height: 750px;
+    }
+}
+
+@media(max-width : 580px) {
+    .post {
+        width: 350px;
+        /* max-width: 600px; */
+    }
+    .post_image > img {
+        width: 350px;
+        max-height: 500px;
+    }
+}
+
+@media(max-width : 425px) {
+    .post {
+        width: 200px;
+        /* max-width: 600px; */
+    }
+    .post_image > img {
+        width: 200px;
+        max-height: 500px;
+    }
+}

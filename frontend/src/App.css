@@ -1,0 +1,44 @@
+.app {
+  background-color: #f1f2f5;
+  /* background-color: green; */
+  margin: 0;
+  padding: 0;
+}
+
+.app_body {
+  display: flex;
+  justify-content: center;
+  /* background-color: green; */
+}
+
+.app-sidebar {
+  width: 20%;
+}
+
+.app-feed {
+  width: 60%;
+}
+
+.app-widgets {
+  width: 20%;
+}
+
+@media(max-width : 768px) {
+  .app-widgets{
+    display: none;
+  }
+
+  .app-feed {
+    width: 100%;
+  }
+} 
+
+@media(max-width : 1024px) {
+  .app-sidebar{
+    display: none;
+  }
+
+  .app-feed {
+    width: 75%;
+  }
+} 

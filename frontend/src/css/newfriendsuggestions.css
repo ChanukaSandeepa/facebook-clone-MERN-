@@ -1,0 +1,38 @@
+.container {
+    height: 200px;
+    width: 700px;
+    display: flex;
+    padding: 10px;
+}
+
+@media(max-width : 1440px) {
+    .container {
+        width: 500px;
+        height: 180px;
+        /* max-width: 600px; */
+    }
+}
+
+@media(max-width : 1024px) {
+    .container {
+        width: 500px;
+        height: 180px;
+        /* max-width: 600px; */
+    }
+}
+
+@media(max-width : 580px) {
+    .container {
+        width: 350px;
+        height: 100px;
+        /* max-width: 600px; */
+    }
+}
+
+@media(max-width : 425px) {
+    .container {
+        width: 200px;
+        height: 80px;
+        /* max-width: 600px; */
+    }
+}

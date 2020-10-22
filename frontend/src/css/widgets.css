@@ -1,0 +1,93 @@
+.app-widgets {
+    position: relative;
+    right: 0;
+    /* display: block; */
+    /* padding-left: 70px; */
+}
+
+.widget {
+    position: fixed;
+    overflow-y: auto;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+  }
+*::-webkit-scrollbar {
+    width: 5px;
+    display: none;
+  }
+*::-webkit-scrollbar-track {
+    background: none;
+  }
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(153, 153, 156);
+    border-radius: 10px;
+  }
+*::-webkit-scrollbar:hover {
+    width: 5px;
+    display: inline;
+  }
+  
+.birthdays-container {
+    flex: 1;
+    margin : 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.bithdays-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding : 5px;
+}
+
+.bithdays-details > .MuiSvgIcon-root {
+    /* padding-left: 5px; */
+    padding-right: 5px;
+    font-size: 30px;
+    color: #2e81f4;
+}
+
+.bithdays-details:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.birthdays-container > p {
+    /* padding-left: 10px; */
+    color: rgb(109, 109, 109);
+    /* margin: 5px; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.online-users-container {
+    margin: 5px;
+
+}
+
+.online-user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.online-user-header > p {
+    color: rgb(109, 109, 109);
+    /* margin: 5px; */
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.online-user-header > .MuiSvgIcon-root {
+    color: rgb(109, 109, 109);
+}
+
+.online-users {
+    
+}
+
+
